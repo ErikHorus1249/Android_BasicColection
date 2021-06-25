@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""></TextView>
+        <EditText
+            android:layout_marginTop="50dp"
+            android:id="@+id/edName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Ho va Ten"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="97dp" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edDOB"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Ngay sinh"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edHome"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Que quan"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="319dp" />
+
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:id="@+id/spYear"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="484dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="80dp"
+        >
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Them sinh vien"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="223dp" />
+    </LinearLayout>
+</LinearLayout>
